@@ -3,9 +3,9 @@ package praktek03;
 
 
 public class beras {
-    String jenis_padi;
-    double harga;
-    String merk;
+    private String jenis_padi;
+    private double harga;
+    private String merk;
     
 void cetakInfo() {
     System.out.println("Jenis Padi \t: "+jenis_padi+"\n"+
