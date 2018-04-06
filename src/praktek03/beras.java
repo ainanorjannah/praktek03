@@ -12,4 +12,29 @@ void cetakInfo() {
             "harga \t: "+harga+"\n"+
             "Merk  \t: "+merk);
 }
+
+    public String getJenis_padi() {
+        return jenis_padi;
+    }
+
+    public void setJenis_padi(String jenis_padi) {
+        this.jenis_padi = jenis_padi;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+
+    public String getMerk() {
+        return merk;
+    }
+
+    public void setMerk(String merk) {
+        this.merk = merk;
+    }
+
 }
